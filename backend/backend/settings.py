@@ -51,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -151,5 +152,6 @@ ALLOWED_HOSTS = ["*"
 
 CORS_ALLOWED_ORIGINS = [
     "team-task-manager-production-8362.up.railway.app"
+    "https://team-task-manager-eosin-pi.vercel.app",
 ]
 CORS_ALLOW_ALL_ORIGINS = True
