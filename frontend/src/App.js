@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "team-task-manager-production-8362.up.railway.app";
+
+const API = "https://team-task-manager-production-8362.up.railway.app";
 
 function App() {
 
