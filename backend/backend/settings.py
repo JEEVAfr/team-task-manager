@@ -142,17 +142,14 @@ SIMPLE_JWT = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://team-task-manager-production-7773.up.railway.app"
-]
 
-ALLOWED_HOSTS = [
-    "team-task-manager-production-7773.up.railway.app",
-    "localhost",
-    "127.0.0.1"
+CSRF_TRUSTED_ORIGINS = [
+    "https://team-task-manager-production-8362.up.railway.app"
+]
+ALLOWED_HOSTS = ["*"
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://team-task-manager-production-7773.up.railway.app"
+    "team-task-manager-production-8362.up.railway.app"
 ]
 CORS_ALLOW_ALL_ORIGINS = True
