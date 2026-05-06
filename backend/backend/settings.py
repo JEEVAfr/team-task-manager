@@ -26,9 +26,6 @@ SECRET_KEY = 'django-insecure-tvdl$5-&2e(ck8_(y3h01jy!#80#%6men(35+k@2pc$!5^8p^s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "team-task-manager-production-7773.up.railway.app"
-]
 
 
 # Application definition
@@ -144,3 +141,17 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://team-task-manager-production-7773.up.railway.app"
+]
+
+ALLOWED_HOSTS = [
+    "team-task-manager-production-7773.up.railway.app",
+    "localhost",
+    "127.0.0.1"
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://team-task-manager-production-7773.up.railway.app"
+]
